@@ -18,9 +18,13 @@ const Navbar = () => {
       <Link style={{ background: "#333" }} to="/addCoffee">
         Add Coffee
       </Link>
-      <Link style={{ background: "#333" }} to="/updateCoffee">
-        Update Coffee
-      </Link>
+      <Link to="/users">Users</Link>
+      <div>
+        <Link className="mr-4" to="/signUp">
+          SignUp
+        </Link>
+        <Link to="/signIn">SignIn</Link>
+      </div>
     </div>
   );
 };
